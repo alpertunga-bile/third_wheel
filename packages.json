@@ -1,0 +1,30 @@
+{
+    "venv_folder": "venv",
+    "target_folder": "third-party",
+    "packages": [
+        {
+            "name": "ispc",
+            "github_url": "https://github.com/ispc/ispc",
+            "win_format": "{name}-v{version}-{os}",
+            "linux_format": "{name}-v{version}-{os}",
+            "version": null,
+            "file_ext": null
+        },
+        {
+            "name": "embree",
+            "github_url": "https://github.com/RenderKit/embree",
+            "win_format": "{name}-{version}.x64.{os}",
+            "linux_format": "{name}-{version}.x86_64.{os}",
+            "version": null,
+            "file_ext": null
+        },
+        {
+            "name": "glfw",
+            "github_url": "https://github.com/glfw/glfw",
+            "win_format": "{name}-{version}.bin.WIN64",
+            "linux_format": "{name}-{version}.bin",
+            "version": null,
+            "file_ext": "zip"
+        }
+    ]
+}
